@@ -1,0 +1,142 @@
+body {
+    font-family: "Lucida Console", "Monaco", "monospace";
+    margin: 0;
+    background-color: rgb(235, 221, 235);
+  }
+  
+  .card {
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 45%;
+    padding: 5px 10px 20px 20px;
+    border: 2px solid rgb(151, 113, 168);
+    display: inline-flex;
+  }
+  
+  .card:hover {
+    box-shadow: 16px 8px 16px 8px rgba(0,0,0,0.2);
+  }
+  
+  h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    font-weight: 350;
+  }
+  
+  .followers-page {
+    display: flex;
+    background-image: none;
+    overflow: hidden;
+  }
+  
+  #follower-images {
+    padding: 0;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  
+  .following-page {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .main-header {
+    background-color: rgb(100, 70, 119);
+    color: #fff;
+    overflow: hidden;
+    padding: 0.5rem;
+  }
+  
+  .main-header h1 {
+    line-height: 1;
+    margin: 0;
+    font-weight: 400;
+  }
+  
+  .main-header a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .main-content {
+    padding: 0.5rem;
+  }
+  
+  li {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px;
+  }
+  
+  .search-page {
+    text-align: center;
+  }
+  
+  .search-page__input {
+    border: 1px solid #4f5b66;
+    padding: 0.2em;
+    border-radius: 10px;
+    margin-right: 1em;
+    font-size: 20px;
+  }
+  
+  .search-page__button {
+    border: 2px solid #4f5b66;
+    background-color: rgb(233, 223, 223);
+    font-size: 20px;
+    border-radius: 8px;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .user-info__avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 1em;
+    float: left;
+  }
+  
+  .user-info__text {
+    text-decoration: none;
+    flex: 1;
+  }
+  
+  .user-info__title {
+    font-size: 20px;
+  }
+  
+  .user-info__title, .user-info__bio {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: flex;
+  }
+  
+  .user-info__stats {
+    list-style: none;
+    padding: 0;
+    flex: 1;
+    display: flex;
+  }
+  
+  .user-info__stats a {
+    color: rgb(87, 61, 180);
+    text-decoration: none;
+    text-transform: lowercase;
+    font-variant: small-caps;
+    text-align: center;
+  }
+  
+  .user-info__stat {
+    flex: 1;
+  }
+  
+  .user-info__stat p {
+    margin: 0;
+    white-space: nowrap;
+  }
+  
